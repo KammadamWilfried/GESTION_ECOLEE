@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: gestion-ecole
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: gestion_ecole/Dockerfile
+    buildCommand: ""
+    startCommand: "php -S 0.0.0.0:10000"
+    autoDeploy: true
