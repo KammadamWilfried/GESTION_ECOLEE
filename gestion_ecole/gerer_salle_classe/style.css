@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+a.btn:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4a5568;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.actions a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.actions a:hover {
+    text-decoration: underline;
+}
+
+form input, form select {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+a.btn,
+form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #4CAF50, #43a047);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+a.btn:hover,
+form button:hover {
+    background: linear-gradient(135deg, #388e3c, #2e7d32);
+    transform: translateY(-2px);
+}
+
+a.btn:active,
+form button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+
+
+ a {
+    padding: 8px 12px;
+    margin: 0 4px;
+    border-radius: 6px;
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.modifier {
+    background-color: #fbc02d;
+    color: #000;
+}
+ .modifier:hover {
+    background-color: #f9a825;
+    transform: scale(1.05);
+}
+
+ .supprimer {
+    background-color: #e53935;
+}
+.supprimer:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
+}

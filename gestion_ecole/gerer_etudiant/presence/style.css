@@ -1,0 +1,133 @@
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #f8f9fa, #e0eafc);
+        margin: 0;
+        padding: 40px;
+    }
+
+    h2, h3 {
+        color: #003366;
+        text-align: center;
+    }
+
+    form {
+        max-width: 900px;
+        margin: 0 auto 30px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #003366;
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .message {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .printable {
+        max-width: 1000px;
+        margin: 0 auto;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th {
+        background-color: #003366;
+        color: white;
+        padding: 12px;
+        text-align: left;
+    }
+
+    td {
+        padding: 12px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    select[name="etat"] {
+        width: auto;
+        padding: 6px;
+    }
+
+    input[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    .btn {
+        display: block;
+        width: 150px;
+        margin: 15px auto;
+        text-align: center;
+        background-color: #28a745;
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background-color: #218838;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #003366;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    @media print {
+        body * {
+            visibility: hidden;
+        }
+        .printable, .printable * {
+            visibility: visible;
+        }
+        .printable {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+        }
+    }
